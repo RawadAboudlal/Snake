@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.rawad.snake.client.gui.PauseScreen?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import com.rawad.snake.client.gui.GameOverScreen?>
+
+<fx:root type="StackPane" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<PauseScreen fx:id="pauseScreen" />
+		<GameOverScreen fx:id="gameOverScreen" />
+	</children>
+</fx:root>

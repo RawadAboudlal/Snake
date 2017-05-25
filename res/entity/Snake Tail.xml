@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Entity>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <comp xsi:type="positionComponent">
+        <x>0</x>
+        <y>0</y>
+    </comp>
+    <comp xsi:type="movementComponent">
+        <vx>0</vx>
+        <vy>0</vy>
+    </comp>
+    <comp xsi:type="tailComponent"/>
+</Entity>

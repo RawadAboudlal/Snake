@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.rawad.snake.client.gui.GameOverScreen?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root xmlns:fx="http://javafx.com/fxml/1" type="GameOverScreen">
+	
+	<visible>false</visible>
+	
+	<columnConstraints>
+		<ColumnConstraints hgrow="SOMETIMES" percentWidth="30.0" />
+		<ColumnConstraints hgrow="SOMETIMES" percentWidth="30.0" />
+		<ColumnConstraints halignment="CENTER" hgrow="ALWAYS" percentWidth="35.0" />
+		<ColumnConstraints hgrow="SOMETIMES" percentWidth="30.0" />
+		<ColumnConstraints hgrow="SOMETIMES" percentWidth="30.0" />
+	</columnConstraints>
+	
+	<rowConstraints>
+		<RowConstraints vgrow="ALWAYS" />
+		<RowConstraints percentHeight="7.0" valignment="CENTER" vgrow="ALWAYS" />
+		<RowConstraints percentHeight="20.0" valignment="CENTER" vgrow="ALWAYS" />
+		<RowConstraints percentHeight="7.0" valignment="CENTER" vgrow="ALWAYS" />
+		<RowConstraints percentHeight="7.0" valignment="CENTER" vgrow="ALWAYS" />
+		<RowConstraints vgrow="ALWAYS" />
+	</rowConstraints>
+	
+	<children>
+		<Label id="gameOverLabel" text="Game Over" alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" 
+				maxWidth="Infinity" />
+		<Label id="scoreLabel" fx:id="scoreLabel" text="Score: " alignment="CENTER" GridPane.columnIndex="2" 
+				GridPane.rowIndex="2" maxWidth="Infinity" wrapText="true" />
+		<Button fx:id="playAgain" text="Play Again" GridPane.columnIndex="2" GridPane.rowIndex="3" maxWidth="Infinity" />
+		<Button fx:id="mainMenu" text="Main Menu" GridPane.columnIndex="2" GridPane.rowIndex="4" maxWidth="Infinity" />
+	</children>
+	
+</fx:root>
+

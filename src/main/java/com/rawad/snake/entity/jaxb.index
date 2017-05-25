@@ -1,0 +1,9 @@
+# Only have the marshall-able classes in here.
+FoodComponent
+HeadComponent
+MovementComponent
+PointsComponent
+PositionComponent
+RenderingComponent
+TailComponent
+UserControlComponent
